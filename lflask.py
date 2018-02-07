@@ -8,5 +8,5 @@ def hello(id):
     return "<h1>hello id's %s</h1>" % id
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
 
