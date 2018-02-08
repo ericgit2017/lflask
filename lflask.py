@@ -15,5 +15,5 @@ def index():
     return "<h2>Your brower is:</h2> %s" % user_agent
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
 
